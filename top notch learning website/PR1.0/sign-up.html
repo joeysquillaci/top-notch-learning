@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html style="background-image: url('images/backgrounds/background.png');">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -33,5 +33,59 @@
         </div>
 
     </head>
+
+    <body>
+        <div id="contact-us-container">
+            <div id="contact-us-content">
+                <div class="contact-us-section">
+                    <div id="contact-us-subcontent-container">
+                        <div id="contact-us-subcontent">
+                            <h1> Interested? Sign up below! </h1>
+                        </div>
+                    </div>
+
+                    <form name="contact" netlify id="contact-us-form">
+                        <p>
+                          <label> Parent's Name <input type="text" name="first-name" /></label>
+                        </p>
+                        <p>
+                            <label> Child's Name <input type="text" name="last-name" /></label>
+                          </p>
+                        <p>
+                          <label> Email <input type="email" name="email" /></label>
+                        </p>
+                        <p>
+                            <label> Phone Number <input type="text" name="phone-number" /></label>
+                        </p>
+                        <p>
+                            <label> Additional Comments/Questions:<textarea rows="10" cols="15" name="comments"> </textarea></label>
+                        </p>
+                        <p id="additional-comments">
+                            Please allow at least 24-72 hours to recieve a response from us, thank you!
+                        </p>
+                        <p>
+                          <button type="submit"> Send </button>
+                        </p>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <footer>
+        <div id="footer-container">
+            <div id="footer-content">
+                <div id="footer-credits"> Website created by JSWDS © </div>
+
+                <div id="footer-link-container">
+                    <div> <a href="index.html"> <img src="images/index/logo.png"> </a> </div>
+                    <div class="footer-link"> <a href="programs.html"> Programs </a> </div>
+                    <div class="footer-link"> <a href="about-us.html"> About Us </a> </div>
+                    <div class="footer-link"> <a href="contact-us.html"> Contact Us </a> </div>
+                    <div class="footer-link" id="footer-sign-up"> <a href="contact-us.html"> Sign Up </a> </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </html>
